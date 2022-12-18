@@ -1,0 +1,78 @@
+{
+  "infoPosts": {
+    "orientation": "Para criar um post, você precisa do nome dele, além de passar todas as informações necessárias, como título e id do usuário",
+    "example": {
+      "userId": 0,
+      "title": "Lorem ipsum dolor sit amet",
+      "body": "Etiam eu suscipit enim, ac posuere metus. Cras vitae ligula lectus. In hac habitasse platea dictumst. Nullam auctor tempus dolor et porta. Curabitur quis iaculis velit. Integer in ligula non nunc dictum cursus. Quisque et leo sit amet eros auctor tincidunt id quis nibh. Aliquam sit amet feugiat nisl. Pellentesque luctus elit sed placerat aliquam. Nam commodo lorem quis velit malesuada, ac fermentum sapien sagittis. Praesent justo erat, ullamcorper a nibh at, vulputate iaculis justo. Curabitur sed dui tellus. Nullam hendrerit egestas elementum."
+    }
+  },
+  "users": [
+    {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "age": 38,
+      "id": 1
+    },
+    {
+      "email": "clauss@mail.com",
+      "password": "$2a$10$PKTKaDjekjV/B5xc7HQObu.YVT7ZKZbal.yn9hOUqSP0HjOwRdi2K",
+      "name": "Clauss",
+      "age": 25,
+      "id": 2
+    },
+    {
+      "email": "claus@mail.com",
+      "password": "$2a$10$7JJ1JNUWutrHrQF3cfTy2uM5t6gibgwfc6bl80kC0nRemKuDh1K0.",
+      "name": "Clauss",
+      "age": 25,
+      "id": 3
+    },
+    {
+      "email": "maria@mail.com",
+      "password": "$2a$10$bX3lhBXCqcSswDUJBVWtO.DVIf2ma4dIc.6cBRc7fEDPoxrW92Kei",
+      "name": "Maria",
+      "age": 25,
+      "id": 4
+    },
+    {
+      "email": "bob@mail.com",
+      "password": "$2a$10$0B.tA7u5IvXU4jjXnvRLXe6L1ZSPNzdhmOL5xpWalPljkOJnx1jGi",
+      "name": "Bob",
+      "age": 25,
+      "id": 5
+    }
+  ],
+  "securityPhrase": [
+    {
+      "userId": 4,
+      "mySecurityPhrase": "batatinha frita 123",
+      "id": 1
+    }
+  ],
+  "posts": [
+    {
+      "userId": 4,
+      "title": "Mágica",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin augue ac magna tempor consectetur. Curabitur ut tincidunt eros, quis suscipit sem. Phasellus varius tempor gravida. Nunc cursus mollis eros et semper. Maecenas vel ornare quam. Cras efficitur urna egestas aliquet auctor. Suspendisse volutpat felis sed tortor pharetra suscipit. Nam sed aliquam lorem. Duis fermentum, risus vel euismod eleifend, ligula sem efficitur nunc, nec malesuada ligula augue eu mi. Sed quis elementum erat.",
+      "id": 1
+    }
+  ],
+  "messages": [
+    {
+      "userId": 4,
+      "message": "Alô galera de cowboy",
+      "id": 1
+    }
+  ],
+  "infoLogged": {
+    "info": "Você está logado cara"
+  },
+  "infoPrivate": [
+    {
+      "userId": 4,
+      "data": "Soul Winter"
+    }
+  ]
+}
